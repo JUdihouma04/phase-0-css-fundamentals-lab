@@ -1,5 +1,23 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+head h1 nav {
+	display: block;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#featured-property {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+#featured-property img {
+	width: 100%;
+}
+#details {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: red;
 }
